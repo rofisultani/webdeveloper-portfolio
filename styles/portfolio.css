@@ -28,6 +28,7 @@ body{
  nav > ul{
     display: flex;
     align-items: center;
+    margin: 0px 200px;
  }
  nav li {
     list-style: none;
@@ -36,4 +37,16 @@ body{
  nav a{
     text-decoration: none;
     color: black;
+ }
+ /* header related styles */
+ .header{
+    background-color: #f1b082;
+ }
+ .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+ }
+ .banner .profile-pic{
+   width: 500px;
  }
