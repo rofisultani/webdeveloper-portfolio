@@ -156,7 +156,27 @@ body{
  /* footer style */
  footer{
    display: flex;
+   gap: 100px;
    background: #f1d3be;
    margin-top: 100px;
    padding: 130px 200px;
+ }
+ .footer-column{
+   width: 50%;
+ }
+
+ .social-links a{
+   margin-right: 25px;
+ }
+
+ .contact input[type="text"], .contact input[type="email"], textarea{
+   display: block;
+   margin-bottom: 25px;
+   padding: 18px 35px;
+   color: #757575;
+   border: 0;
+ }
+
+ .contact input{
+
  }
